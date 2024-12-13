@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #610000;
+    color: #f1f1f1;
+}
+
+header {
+    background-color: #fff;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: #E22420;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section-container {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+}
+
+.team-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.team-logos img {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.team-logos img:hover {
+    transform: scale(1.1);
+}
